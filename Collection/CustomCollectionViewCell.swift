@@ -10,11 +10,7 @@ import UIKit
 
 class CustomCollectionViewCell: UICollectionViewCell {
     
-    @IBOutlet var customLabel: UILabel!
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-        customLabel.text = "あ"
-    }
+    @IBOutlet weak var imageView: UIImageView!
+    
     
 }
